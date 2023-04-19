@@ -205,7 +205,9 @@ shape = SubResource( 1 )
 
 [node name="Platforms" type="TileMap" parent="."]
 tile_set = SubResource( 9 )
+cell_size = Vector2( 18, 18 )
 format = 1
+tile_data = PoolIntArray( 1507342, 1, 0, 1507343, 2, 0, 1507344, 2, 0, 1507345, 2, 0, 1507346, 2, 0, 1507347, 2, 0, 1507348, 2, 0, 1507349, 3, 0 )
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
 position = Vector2( 304, 243 )
