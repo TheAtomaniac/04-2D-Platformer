@@ -14,6 +14,22 @@ MSCH-C220 Game Jam, April 2023
 
 
 ## References
+https://kenney.nl/assets/pixel-platformer-industrial-expansion (platforms)
+
+https://soundbible.com/670-Swooshing.html (when gravity is switched)
+
+https://soundbible.com/993-Upper-Cut.html (attack sound)
+
+https://soundbible.com/1418-Sharp-Punch.html (taking damage)
+
+https://soundbible.com/968-Angry-Giant.html (enemy sound effect)
+
+https://craftpix.net/freebies/free-3-cyberpunk-characters-pixel-art/ (player models)
+
+ https://bdragon1727.itch.io/fantasy-pixel-character-park-1 (enemies)
+ 
+https://www.youtube.com/watch?v=mRN_T6JkH-c&list=PLwJjxqYuirCLkq42mGw4XKGQlpZSfxsYd (background music) 
+
 
 ## Future Development
 
