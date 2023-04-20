@@ -7,11 +7,12 @@ func _ready():
 	yield(player, "ready")
 
 func start():
-#	player.set_animation("Falling")
+	player.set_animation("Falling")
 	player.jump_power = Vector2.ZERO
 
 func physics_process(_delta):
 	if player.is_on_floor() and player.velocity.y > 0:
+		print("floor")
 		player.velocity.y = 0
 		if player.is_moving():
 			SM.set_state("Moving")
@@ -19,6 +20,7 @@ func physics_process(_delta):
 			SM.set_state("Idle")
 		return
 	if player.is_on_ceiling():
+		print("ceiling")
 		player.velocity.y = 0
 	if Input.is_action_pressed("jump") and not player.double_jumped and SM.previous_state.name != "WallJump":
 		player.double_jumped = true

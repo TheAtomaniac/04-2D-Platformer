@@ -9,7 +9,7 @@ func _ready():
 	yield(player, "ready")
 
 func start():
-#	player.set_animation("Moving")
+	player.set_animation("Moving")
 	player.jump_power = Vector2.ZERO
 
 func physics_process(_delta):
@@ -18,6 +18,9 @@ func physics_process(_delta):
 	else:
 		player.velocity.y = 0
 	if Input.is_action_pressed("jump") and player.jump_reset:
+		var jump = get_node_or_null("/root/Game/Sounds/Jump")
+		if jump != null:
+			jump.play()
 		SM.set_state("Jumping")
 	if player.is_moving():
 		if player.direction != prev_direction:
