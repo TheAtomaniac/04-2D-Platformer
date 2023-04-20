@@ -51,10 +51,10 @@ https://www.fontspace.com/pixeloid-font-f69232 [8 bit font]
 none
 
 # Created by: The Other Guys
-Adam Weigand
+Adam Weigand (Level Design)
 
-Edgardo Garcia
+Edgardo Garcia (Music)
 
-Jonathan Perrotta
+Jonathan Perrotta (Sprites)
 
-Jose Bautista-Martinez
+Jose Bautista-Martinez (Programmer)
