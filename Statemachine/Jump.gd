@@ -7,7 +7,7 @@ func _ready():
 	yield(player, "ready")
 
 func start():
-#	player.set_animation("Jumping")
+	player.set_animation("Jumping")
 	player.jump_power = Vector2.ZERO
 
 func physics_process(_delta):
