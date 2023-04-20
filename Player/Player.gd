@@ -102,7 +102,6 @@ func set_animation(anim):
 func attack():
 	if $Attack.is_colliding():
 		var target = $Attack.get_collider()
-		print(target)
 		if target.has_method("hit"):
 			var punch = get_node_or_null("/root/Game/Sounds/Attack")
 			if punch != null:
