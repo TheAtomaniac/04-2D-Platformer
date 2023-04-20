@@ -11,12 +11,12 @@ A and D to move
 
 W to jump
 
-F to attack
+F or E to attack
 
 SPACEBAR to change gravity
 
 ## Impediments
-
+Character slides when gravity is switched, we just made the level with this in mind
 
 ## Implementation
 
@@ -48,6 +48,7 @@ https://www.fontspace.com/pixeloid-font-f69232 [8 bit font]
 
 
 ## Future Development
+none
 
 # Created by: The Other Guys
 Adam Weigand
