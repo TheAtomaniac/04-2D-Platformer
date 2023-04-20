@@ -12,17 +12,19 @@ func start():
 
 func physics_process(_delta):
 	if player.is_on_floor() and player.velocity.y > 0:
-		print("floor")
 		player.velocity.y = 0
 		if player.is_moving():
 			SM.set_state("Moving")
 		else:
 			SM.set_state("Idle")
 		return
-	if player.is_on_ceiling():
-		print("ceiling")
-		player.velocity.y = 0
-	if Input.is_action_pressed("jump") and not player.double_jumped and SM.previous_state.name != "WallJump":
+	if player.reverse:
+		if player.is_on_ceiling():
+			player.velocity.y = -1
+	else:
+		if player.is_on_ceiling():
+			player.velocity.y = 0
+	if Input.is_action_pressed("jump") and not player.double_jumped:
 		player.double_jumped = true
 		SM.set_state("Jumping")
 		
