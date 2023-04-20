@@ -1,8 +1,5 @@
 extends Control
 
-
-func _ready():
-	pass
 func _physics_process(_delta):
 	update_health()
 	update_score()
