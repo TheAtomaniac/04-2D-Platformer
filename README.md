@@ -11,6 +11,8 @@ A and D to move
 
 W to jump
 
+F to attack
+
 SPACEBAR to change gravity
 
 ## Impediments
