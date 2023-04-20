@@ -39,6 +39,7 @@ func _physics_process(_delta):
 	
 	if is_on_floor():
 		double_jumped = false
+
 	if Input.is_action_just_pressed("reverse"):
 		var sound = get_node_or_null("/root/Game/Sounds/Reverse")
 		if sound != null:
@@ -52,22 +53,26 @@ func _physics_process(_delta):
 			SM.set_state("Idle")
 			$AnimatedSprite.flip_v = true
 			$AnimatedSprite.offset.y = 14
+
 	if not Input.is_action_pressed("jump"):
 		jump_reset = true
+
 	if Input.is_action_just_pressed("attack"):
 			SM.set_state("Attack")
+
 	if reverse:
-		gravity = Vector2(0,-10)
-		jump_speed = -20
-		max_jump = -300
-		move_speed = 40
-		max_move = 200
+		gravity = Vector2(0,10)
+		jump_speed = -40
+		max_jump = -200
+		move_speed = 30
+		max_move = 150
 	else:
 		gravity = Vector2(0,15)
 		jump_speed = 30
 		max_jump = 100
 		move_speed = 40
 		max_move = 150
+
 	if position.y <= -150 or position.y >= 700:
 		die()
 
