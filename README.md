@@ -42,6 +42,8 @@ https://soundbible.com/1791-Torture.html (death sound for Player and enemies)
 
 https://soundbible.com/2100-Splash-Rock-In-Lake.html (drop in lava sound)
 
+https://www.fontspace.com/pixeloid-font-f69232 [8 bit font] 
+
 
 ## Future Development
 
