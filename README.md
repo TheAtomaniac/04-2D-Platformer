@@ -2,10 +2,16 @@
 MSCH-C220 Game Jam, April 2023
 
 ## Theme
-
+We interpreted reverse as having reverse gravity so we made a platformer where you can change the gravity to go from the floor to the ceiling and vice versa
 
 ## Game Play
+Make it to the end of the level
 
+A and D to move
+
+W to jump
+
+SPACEBAR to change gravity
 
 ## Impediments
 
