@@ -14,7 +14,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Anti-Grav"
+config/name="Future Man"
 run/main_scene="res://UI/Main_Menu.tscn"
 config/icon="res://icon.png"
 
