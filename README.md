@@ -1,8 +1,5 @@
-# Anti-Grav
-MSCH-C220 Game Jam, April 2023
+# Future Man
 
-## Theme
-We interpreted reverse as having reverse gravity so we made a platformer where you can change the gravity to go from the floor to the ceiling and vice versa
 
 ## Game Play
 Make it to the end of the level
@@ -14,11 +11,6 @@ W to jump
 F or E to attack
 
 SPACEBAR to change gravity
-
-## Impediments
-Character slides when gravity is switched, we just made the level with this in mind
-
-## Implementation
 
 
 ## References
@@ -50,11 +42,5 @@ https://www.fontspace.com/pixeloid-font-f69232 [8 bit font]
 ## Future Development
 none
 
-# Created by: The Other Guys
-Adam Weigand (Level Design)
-
-Edgardo Garcia (Music)
-
-Jonathan Perrotta (Sprites)
-
-Jose Bautista-Martinez (Programmer)
+# Created by:
+Adam Weigand
