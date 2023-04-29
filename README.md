@@ -2,7 +2,6 @@
 
 
 ## Game Play
-Make it to the end of the level
 
 A and D to move
 
